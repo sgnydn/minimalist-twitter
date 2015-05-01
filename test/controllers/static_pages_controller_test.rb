@@ -4,7 +4,7 @@ class StaticPagesControllerTest < ActionController::TestCase
   test "should get home" do
     get :home
     assert_response :success
-    assert_select "title", "Home | Minimalist Twitter Clone"
+    assert_select "title", "Minimalist Twitter Clone"
   end
 
   test "should get help" do
@@ -19,10 +19,10 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_select "title", "About | Minimalist Twitter Clone"
   end
 
-  # test "should get raprap" do
-  #   get :raprap
-  #   assert_response :success
-  #   assert_select "title", "RapRap | Minimalist Twitter Clone"
-  # end
+  test "should get contact" do
+    get :contact
+    assert_response :success
+    assert_select "title", "Contact | Minimalist Twitter Clone"
+  end
 
 end
