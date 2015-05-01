@@ -15,6 +15,9 @@
 !/log/.keep
 /tmp
 
+# Ignore Spring files.
+/spring/*.pid
+
 *.iml
 
 ## Directory-based project format:

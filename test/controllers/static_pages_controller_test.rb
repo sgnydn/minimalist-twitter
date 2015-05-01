@@ -19,4 +19,10 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_select "title", "About | Minimalist Twitter Clone"
   end
 
+  # test "should get raprap" do
+  #   get :raprap
+  #   assert_response :success
+  #   assert_select "title", "RapRap | Minimalist Twitter Clone"
+  # end
+
 end
